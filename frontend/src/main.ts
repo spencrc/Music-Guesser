@@ -22,3 +22,15 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+
+const serverURL = "/api"
+async function fetchAPI() {
+  try {
+    const response = await fetch(serverURL);
+    console.log(response);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+fetchAPI();
