@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MerchantCopy';
-    src: url("../public/Merchant-Copy.ttf") format("truetype");
+    src: url("/Merchant-Copy.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -67,7 +67,7 @@ hr {
     display: flex;
     flex-flow: column;
     padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -134,7 +134,7 @@ button.submit:hover {
 
 .clue-type {
     align-self: end;
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
     font-weight: 700;
 }
